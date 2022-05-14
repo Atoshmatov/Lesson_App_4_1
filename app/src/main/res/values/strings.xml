@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">4 Pictures 1 Words</string>
+    <string name="play">Play</string>
+    <string name="created">GITA|Created by Alimardon</string>
+    <string name="correct">Correct</string>
+    <string name="next">Next</string>
+    <string name="home">home</string>
+    <string name="about">4 pictures 1 word word guessing game. It gives you four pictures and then gives you the task of guessing which word fits the theme of the photos presented.\n Developer: Alimardon Toshmatov.</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Play_Market/newPlayMerket/lesson_app_4_1/app/src/main/res/drawable-v24/cl_style.xml" value="0.11" />
+        <entry key="..\:/Play_Market/newPlayMerket/lesson_app_4_1/app/src/main/res/drawable-v24/variant_bg_style.xml" value="0.1235" />
+        <entry key="..\:/Play_Market/newPlayMerket/lesson_app_4_1/app/src/main/res/drawable/answer_bg_style.xml" value="0.2645" />
+        <entry key="..\:/Play_Market/newPlayMerket/lesson_app_4_1/app/src/main/res/drawable/bonus_style.xml" value="0.2635" />
+        <entry key="..\:/Play_Market/newPlayMerket/lesson_app_4_1/app/src/main/res/drawable/btn.xml" value="0.1" />
+        <entry key="..\:/Play_Market/newPlayMerket/lesson_app_4_1/app/src/main/res/drawable/cl_style.xml" value="0.11" />
+        <entry key="..\:/Play_Market/newPlayMerket/lesson_app_4_1/app/src/main/res/drawable/ic_visibility.xml" value="0.2635" />
+        <entry key="..\:/Play_Market/newPlayMerket/lesson_app_4_1/app/src/main/res/drawable/variant_bg_style.xml" value="0.1235" />
+        <entry key="..\:/Play_Market/newPlayMerket/lesson_app_4_1/app/src/main/res/layout/about.xml" value="0.259375" />
+        <entry key="..\:/Play_Market/newPlayMerket/lesson_app_4_1/app/src/main/res/layout/aboutdialog.xml" value="0.24739583333333334" />
+        <entry key="..\:/Play_Market/newPlayMerket/lesson_app_4_1/app/src/main/res/layout/activity_game.xml" value="0.259375" />
+        <entry key="..\:/Play_Market/newPlayMerket/lesson_app_4_1/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Play_Market/newPlayMerket/lesson_app_4_1/app/src/main/res/layout/activity_splash.xml" value="0.2453125" />
+        <entry key="..\:/Play_Market/newPlayMerket/lesson_app_4_1/app/src/main/res/layout/variant_bg_style.xml" value="1.7785714285714285" />
+        <entry key="..\:/Play_Market/newPlayMerket/lesson_app_4_1/app/src/main/res/layout/windialog.xml" value="0.2553846153846154" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="SuppressABINotification">
+    <option name="modulesWithSuppressedNotConfigured">
+      <set>
+        <option value="Lesson_App_4_1.app" />
+      </set>
+    </option>
+  </component>
+</project>

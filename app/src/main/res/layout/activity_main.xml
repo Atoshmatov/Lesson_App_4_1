@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ui.MainActivity">
+
+    <!--    tool bar-->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:layout_gravity="center"
+        android:background="@color/toolbar_color"
+        android:gravity="center"
+        app:elevation="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/about"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:elevation="10dp"
+                android:focusable="true"
+                android:background="?selectableItemBackgroundBorderless"
+                android:src="@drawable/info"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/coins_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="10"
+                android:fontFamily="@font/acme"
+                android:gravity="center|end"
+                android:letterSpacing="0.02"
+                android:padding="10dp"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="6"
+                tools:text="1200"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/infoApp"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:src="@drawable/coin" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </com.google.android.material.appbar.AppBarLayout>
+    <!--    tool bar-->
+
+    <!--    section_1-->
+
+    <!--    liner_1-->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+    <!--    liner_1-->
+
+    <!--    level_image-->
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:elevation="12dp"
+        android:src="@drawable/ic_level"
+        app:layout_constraintBottom_toBottomOf="@+id/flow"
+        app:layout_constraintEnd_toEndOf="@+id/flow"
+        app:layout_constraintHeight_percent="0.12"
+        app:layout_constraintStart_toStartOf="@+id/flow"
+        app:layout_constraintTop_toTopOf="@+id/flow"
+        app:layout_constraintWidth_percent="0.3" />
+
+    <TextView
+        android:id="@+id/textLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="15sp"
+        android:fontFamily="@font/acme"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/appCompatImageView"
+        app:layout_constraintEnd_toEndOf="@+id/appCompatImageView"
+        app:layout_constraintStart_toStartOf="@+id/appCompatImageView"
+        app:layout_constraintTop_toTopOf="@+id/appCompatImageView"
+        tools:text="1" />
+    <!--    level_image-->
+
+    <!--    image_solution-->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cv_image_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:cardElevation="10dp"
+        app:layout_constraintDimensionRatio="1:1">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_main_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/item_1_1" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cv_image_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:cardElevation="10dp"
+        app:layout_constraintDimensionRatio="1:1">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_main_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/item_1_2" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cv_image_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:cardElevation="10dp"
+        app:layout_constraintDimensionRatio="1:1">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_main_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/item_1_3" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cv_image_4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:cardElevation="10dp"
+        app:layout_constraintDimensionRatio="1:1">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_main_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/item_1_4" />
+    </com.google.android.material.card.MaterialCardView>
+    <!--    image_solution-->
+
+    <!--    flow solution-->
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/flow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="40dp"
+        android:orientation="horizontal"
+        app:constraint_referenced_ids="cv_image_1,cv_image_2,cv_image_3,cv_image_4"
+        app:flow_horizontalGap="6dp"
+        app:flow_maxElementsWrap="2"
+        app:flow_verticalGap="6dp"
+        app:flow_wrapMode="chain"
+        app:layout_constraintBottom_toTopOf="@+id/linear"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.5" />
+    <!--    flow solution-->
+
+    <!--    section_1-->
+
+    <!--    section_2-->
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/playGame"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:backgroundTint="@color/toolbar_color"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linear" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:elevation="10dp"
+        android:src="@drawable/play"
+        app:layout_constraintBottom_toBottomOf="@+id/playGame"
+        app:layout_constraintEnd_toStartOf="@id/play_2"
+        app:layout_constraintHeight_percent="0.06"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="@+id/playGame"
+        app:layout_constraintTop_toTopOf="@+id/playGame"
+        app:layout_constraintWidth_percent="0.1" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/play_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:elevation="10dp"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:text="@string/play"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/playGame"
+        app:layout_constraintEnd_toEndOf="@+id/playGame"
+        app:layout_constraintStart_toEndOf="@+id/appCompatImageView2"
+        app:layout_constraintTop_toTopOf="@+id/playGame"
+        app:layout_constraintWidth_percent="0.2" />
+
+    <!--    section_2-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
